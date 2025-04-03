@@ -1,0 +1,41 @@
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+*.venv
+
+# Fichiers générés par pipenv
+Pipfile.lock
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers temporaires Linux
+*~
+*.swp
+*.swo
+*.bak
+
+# Logs et fichiers de débogage
+*.log
+*.log.*
+
+# Répertoires de dépendances locales
+site-packages/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Fichiers spécifiques à VS Code
+.vscode/
+*.code-workspace
+
+# Fichiers de cache ou temporaires divers
+.cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
