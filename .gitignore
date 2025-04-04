@@ -1,3 +1,4 @@
+
 # Environnements virtuels Python
 .venv/
 venv/
@@ -5,18 +6,19 @@ env/
 *.venv
 
 # Fichiers générés par pipenv
-Pipfile.lock
+# Pipfile.lock
 
 # Fichiers Python compilés
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Fichiers temporaires Linux
+# Fichiers temporaires Linux/Mac/Windows
 *~
 *.swp
 *.swo
 *.bak
+*.tmp
 
 # Logs et fichiers de débogage
 *.log
@@ -39,3 +41,24 @@ build/
 .coverage
 coverage.xml
 htmlcov/
+
+# Bases de données locales (SQLite et similaires)
+*.db
+*.sqlite
+*.sqlite3
+test_*.db
+
+# Fichiers de configuration sensibles (PostgreSQL, autres SGBD, etc.)
+.env
+*.env
+config.ini
+secrets.ini
+credentials.json
+
+# Scripts SQL ou fichiers de migration temporaires
+*.sql  # À décommenter si tu versionnes les scripts SQL officiels
+
+# Autres fichiers de base de données ou outils
+*.dump  # Pour les dumps SQL (PostgreSQL, MySQL, etc.)
+*.bak  # Backups de bases
+pgdata/  # Répertoire par défaut de PostgreSQL local
