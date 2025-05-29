@@ -42,7 +42,13 @@ build/
 coverage.xml
 htmlcov/
 
-# tests
+# Tests et couverture
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+.tox/
 pytest.ini
 
 # Bases de données locales (SQLite et similaires)
