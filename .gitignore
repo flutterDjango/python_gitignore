@@ -42,6 +42,9 @@ build/
 coverage.xml
 htmlcov/
 
+# tests
+pytest.ini
+
 # Bases de données locales (SQLite et similaires)
 *.db
 *.sqlite
