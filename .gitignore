@@ -57,6 +57,10 @@ pytest.ini
 *.sqlite3
 test_*.db
 
+
+# Fichiers compressés
+*.tar
+
 # Fichiers de configuration sensibles (PostgreSQL, autres SGBD, etc.)
 .env
 *.env
