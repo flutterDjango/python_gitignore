@@ -75,3 +75,12 @@ credentials.json
 *.dump  # Pour les dumps SQL (PostgreSQL, MySQL, etc.)
 *.bak  # Backups de bases
 pgdata/  # Répertoire par défaut de PostgreSQL local
+
+
+# Ignorer toutes les images par défaut
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
