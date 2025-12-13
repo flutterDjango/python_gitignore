@@ -13,16 +13,21 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Fichiers temporaires Linux/Mac/Windows
+# Fichiers et dossiers temporaires Linux/Mac/Windows
 *~
 *.swp
 *.swo
 *.bak
 *.tmp
+tmp/
 
 # Logs et fichiers de débogage
 *.log
 *.log.*
+
+# Médias et statiques
+media/
+staticfiles/
 
 # Répertoires de dépendances locales
 site-packages/
