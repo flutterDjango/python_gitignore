@@ -6,9 +6,6 @@ env/
 *.venv
 
 
-# Ignore les diagramme
-uml/
-UML/
 
 
 # Fichiers générés par pipenv
