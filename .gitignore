@@ -7,6 +7,10 @@ env/
 
 
 
+# backup BDD
+/backups/
+/backup/logs/
+
 
 # Fichiers générés par pipenv
 # Pipfile.lock
